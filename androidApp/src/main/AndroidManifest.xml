@@ -46,7 +46,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="nuvio"
+                    android:scheme="nuviolauncher"
                     android:host="auth"
                     android:path="/simkl" />
             </intent-filter>
@@ -57,7 +57,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="nuvio"
+                    android:scheme="nuviolauncher"
                     android:host="auth"
                     android:path="/trakt" />
             </intent-filter>
@@ -76,17 +76,6 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="stremio" />
-            </intent-filter>
-            <intent-filter android:autoVerify="true">
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:scheme="https"
-                    android:host="nuvio.tv"
-                    android:pathPrefix="/party/" />
             </intent-filter>
         </activity>
 
